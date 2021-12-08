@@ -1,4 +1,3 @@
-import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { CssBaseline } from "@nextui-org/react";
 import { wrapper } from "../redux/store";

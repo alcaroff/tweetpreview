@@ -23,7 +23,9 @@ export default function Tweet() {
         <Text weight="bold" span>
           {`You `}
         </Text>
-        <Text span>@your_username · 1h</Text>
+        <Text span style={{ color: "rgb(83, 100, 113)" }}>
+          @your_username · 1h
+        </Text>
         <div>
           <TweetText>
             {emoji(tweetText || "Welcome to the twitter preview app")}
@@ -51,5 +53,5 @@ const TweetAvatar = styled.div`
   height: 48px;
   border-radius: 48px;
   display: block;
-  background-color: #222;
+  background-color: #1d9bf0;
 `;
