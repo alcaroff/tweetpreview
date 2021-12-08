@@ -1,8 +1,5 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
 import Form from "../src/Form";
-import styles from "../styles/Home.module.css";
 import { Text, Row, Spacer } from "@nextui-org/react";
 import emoji from "react-easy-emoji";
 import Tweet from "../src/Tweet";
@@ -12,7 +9,9 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   > main {
-    max-width: 598px;
+    padding: 0 16px;
+    width: 100%;
+    max-width: 594px;
   }
 `;
 

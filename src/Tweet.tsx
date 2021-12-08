@@ -12,7 +12,7 @@ export default function Tweet() {
         display: "flex",
         alignItems: "flex-start",
         padding: "16px",
-        width: "598px",
+        maxWidth: "598px",
         border: `solid 1px rgb(239, 243, 244)`,
       }}
     >
