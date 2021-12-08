@@ -27,7 +27,7 @@ const Home: NextPage = () => {
       <Container>
         <main>
           <AlphaChip />
-          <Text h1>{emoji("😄 Simple Tweet Preview")}</Text>
+          <Text h1>{emoji("😄 Tweet Preview")}</Text>
           <Spacer />
           <Tweet />
           <Spacer />
