@@ -40,7 +40,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="en_US">
+      <Html lang="en">
         <Head>
           <script
             dangerouslySetInnerHTML={{
